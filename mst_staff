@@ -1,0 +1,6 @@
+CREATE TABLE `mst_staff` (
+  `code` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(15) NOT NULL DEFAULT '',
+  `password` varchar(32) NOT NULL DEFAULT '',
+  PRIMARY KEY (`code`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
